@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #c41f50;
+  font-family: tahoma; }
+
+.container {
+  width: 250px;
+  height: 150px;
+  font-size: 2em;
+  margin: 2em auto;
+  padding: 2em;
+  background: #0bf5ba;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black; }
+
+.container {
+  -webkit-box-shadow: 50px 0 #4099ff inset, 0 -50px red inset, -50px 0 #4099ff inset, 0 50px red inset;
+  box-shadow: 50px 0 #4099ff inset, 0 -50px red inset, -50px 0 #4099ff inset, 0 50px red inset; }

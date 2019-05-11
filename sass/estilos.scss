@@ -1,0 +1,33 @@
+$sombra:#4099ff;
+body {
+    margin: 0;
+    background: rgb(196, 31, 80);
+    font-family: tahoma;
+}
+.container {
+    // tamaño y color
+    width: 250px;
+    height: 150px;
+    font-size: 2em;
+    margin: 2em auto;
+    padding: 2em;
+    background: rgb(11, 245, 186);
+    font-weight: bold;
+    // Centrado absoluto del contenido
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    // bordes para visualizar los limites
+    border: 2px solid black;
+}
+.container {
+    // inset: sombra por dentro
+    // los valores del off cambia con inset
+    // box-shadow: ((off horiz) (off set vertical) (difuminado) (extension) (inset))
+    box-shadow: 50px 0 $sombra inset,
+                 0 -50px red inset,
+                 -50px 0 $sombra inset,
+                 0 50px red inset,
+               ;
+}
